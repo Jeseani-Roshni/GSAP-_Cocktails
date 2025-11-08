@@ -4,6 +4,7 @@ import { ScrollTrigger, SplitText } from "gsap/all";
 // immport Navbar from './Components/Navbar.jsx'
 import  Navbar  from "./Components/Navbar";
 import Hero from './Components/Hero'
+import Cocktails from "./Components/Cocktails";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -21,7 +22,7 @@ const App = () => {
         preload='auto'/>
       <Navbar/>
       <Hero/>
-      <div className="h-dvh bg-black"/>
+      <Cocktails/>
      </main>
     </>
   );
